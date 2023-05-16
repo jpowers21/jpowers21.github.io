@@ -1,13 +1,5 @@
 /*Written by Joey Powers for CIS 130*/
 
-@media (min-width: 767px){
-    .aboutimgmobile{
-        display:none;
-    }
-}
-.aboutimgmobile{
-    display:none;
-}
 .center{
     display:inline-block;
     text-align:center;
@@ -21,6 +13,7 @@ color:#1D118A}
 body{
     background-color:#050412;
 }
+/*CSS for navbar at top*/
 .navbar ul {
     background: #1D118A;
     list-style: none;
@@ -29,7 +22,7 @@ body{
     text-align: center;
 }
 
-/*CSS for the desktop navbar*/
+
 .navbar li {
     display: inline-block;
 }
@@ -49,7 +42,7 @@ body{
 }
 
 .navbar li:hover {
-    background-color: orange;
+    background-color: #050412;
 }
 .about {
     background-color: #1D118A;
@@ -180,6 +173,7 @@ footer a{
     margin-top:50px;
     color:#A27FF8;
 }
+/*Media query for mobile*/
 @media (max-width: 767px){
     .flex-container-container{
         text-align:center;
