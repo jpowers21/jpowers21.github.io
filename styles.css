@@ -1,0 +1,199 @@
+/*Written by Joey Powers for CIS 130*/
+
+@media (min-width: 767px){
+    .aboutimgmobile{
+        display:none;
+    }
+}
+.aboutimgmobile{
+    display:none;
+}
+.center{
+    display:inline-block;
+    text-align:center;
+    margin:0 auto;
+}
+header
+{text-align: center;
+padding-top:30px;
+padding-bottom:30px;
+color:#1D118A}
+body{
+    background-color:#050412;
+}
+.navbar ul {
+    background: #1D118A;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/*CSS for the desktop navbar*/
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #A27FF8;
+    width: 100px;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar li:hover {
+    background-color: orange;
+}
+.about {
+    background-color: #1D118A;
+    color: #A27FF8;
+    text-align: center;
+}
+
+.abouttitle {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.aboutimg {
+
+display:block;
+float:left;
+margin-right:25px;
+margin-left:25px;
+
+}
+
+.abouttxt {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: large;
+    padding-bottom: 75px;
+    padding-top: 20px;
+}
+footer {
+    background-color: #1D118A;
+    margin: 0;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+}
+footer a{
+    color:#A27FF8;
+}
+.servicetitle{
+    background-color:#A27FF8;
+    color:#1D118A;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.flex-container1 {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.flex-container1 div {
+    margin-top: 50px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    display: block;
+    width:275px;
+    background-color:#1D118A;
+    color:#050412;
+    margin-left:20px;
+    margin-right:20px;
+    width:250px;
+}
+
+.flex-container-container {
+    padding-bottom: 30px;
+}
+
+
+
+.flex-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    flex-direction: initial;
+    text-align: center;
+
+}
+.workwithmeflex{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    text-align:center;
+}
+.button{
+    background-color:#A27FF8;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.button a{
+    color:#1D118A
+}
+
+.button:hover{
+    background-color: #1D118A;
+}
+.button a:hover{
+    color:#A27FF8;
+}
+.indexcontent{
+    background-color:#1D118A;
+    color:#A27FF8;
+    padding-bottom:50px;
+    padding-top:20px;
+}
+.contactcontent{
+    text-align:center;
+    background-color:#1D118A;
+    color:#A27FF8;
+    padding-bottom:25px;
+    padding-top:10px;
+}
+.servicecontent{
+    text-align:center;
+    margin-top:50px;
+    color:#A27FF8;
+}
+@media (max-width: 767px){
+    .flex-container-container{
+        text-align:center;
+    }
+    .flex-container1{
+        flex-direction:column;
+        display:inline-block;
+    }
+    .flex-container1 div{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .aboutimg{
+        display:none;
+    }
+    
+}
